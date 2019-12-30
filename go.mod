@@ -1,5 +1,5 @@
 module github/test
-replace github.com/test v0.0.0 => github.com/allsunlight/test.git v0.0.0
+
 go 1.13
 
-require github.com/allsunlight/test
+require github.com/allsunlight/test v1.2.3 // indirect

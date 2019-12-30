@@ -1,14 +1,15 @@
 package main
 
 import (
-	"github/test/client/client"
-	"github/test/server"
+	"github.com/allsunlight/test/client/client"
+	"github.com/allsunlight/test/server"
 	"log"
 	"net"
 	"net/http"
 	"net/rpc"
 	"time"
 )
+//require github.com/allsunlight/test v0.0.0-20191230103711-1fa4bf1b594d
 
 func main()  {
 	arith := new(server.Arith)

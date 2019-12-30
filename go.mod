@@ -1,7 +1,5 @@
 module github/test
-
-replace my.com => /Users/jiaxinyu/tmp/t1
-
+replace github.com/test v0.0.0 => github.com/allsunlight/test.git v0.0.0
 go 1.13
 
-require my.com v0.0.0-00010101000000-000000000000
+require github.com/test v.0.0.0
